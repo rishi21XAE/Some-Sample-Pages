@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InputGroup</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
+        .search-bar{
+            width: 599px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="search-bar">
+        <div class="input-group mb-4">
+            <select class="input-group-text">
+                <option>All</option>
+                <option>Mobiles</option>
+                <option>Fashion</option>
+            </select>
+            <input type="text" class="form-control">
+            <button class="btn btn-warning"><span class="bi bi-search"></span></button>
+        </div>
+
+        <div class="input-group  mb-3">
+            <input type="email" placeholder="Your email address" class="form-control">
+            <button class="btn btn-danger">
+                Get Started <span class="bi bi-chevron-right"></span>
+            </button>
+
+        </div>
+        <div class="input-group">
+            
+            <span class="bi bi-key-fill  input-group-text"></span>
+            <input type="password" class="form-control">
+            <span class="bi bi-check-square-fill input-group-text"></span>
+        </div>
+    </div>
+        
+</body>
+</html>

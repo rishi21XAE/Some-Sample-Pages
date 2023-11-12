@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+       
+        header{
+            background-color: bisque;
+            color: red;
+            text-align: center;
+            padding: 20px;
+            font-family: monospace;
+            border-radius: 8px;
+        }
+
+        footer{
+            background-color: bisque;
+            color: red;
+            text-align: center;
+            padding: 20px;
+            font-family: monospace;
+            border-radius: 8px;
+        }
+        section{
+            height:500px;
+            display: grid;
+            grid-template-columns: 2fr 8fr 2fr;
+            margin-top: 20px;
+        }
+
+        nav div {
+            border: 2px tomato solid;
+            width: 140px;
+            margin-bottom: 5px;
+            padding: 7px;
+            font-family: monospace;
+            background-color: bisque;
+            color: gray;
+            border-radius: 8px;
+        }
+        aside{
+            width:200px;
+            height: 50px;
+            border:2px solid black;
+            text-align: center;
+        }
+        article {
+            width: 300px;
+            background-color: cyan;
+            color: red;
+            padding: 4px;
+            text-align: center;
+            margin-left: 100px;
+        }
+
+        main div {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        figure{
+            height: 250px;
+            border: 2px double;
+            width: 200px;    
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Amazon Shopping</div>
+    </header>
+
+    <section>
+        <nav>
+            
+                <div>Home</div>
+                <div>Electronics</div>
+                <div>Fashion</div>
+                <div>Footwear</div>
+            
+        </nav>
+
+        <main>
+            <dialog>ANy Help</dialog>
+            <div>Welcome To Online Shopping Store</div>
+
+            <figure>
+                Your Image
+                <figcaption>Samsung Tv</figcaption>
+            </figure>
+            <article>
+                70% off On Books
+            </article>
+        </main>
+
+
+        <aside>
+            Ads Here
+        </aside>
+    </section>
+
+    <footer>
+        <div> &copy; copyright 2021</div>
+    </footer>
+
+    <form action="http://www.example/com/login.php">
+
+        <p>Username :
+            <input type="text" name="Username"placeholder="john" >
+            <button>Register</button>
+        </p>
+    </form>
+
+</body>
+</html>

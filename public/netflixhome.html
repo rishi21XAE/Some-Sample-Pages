@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            background-image: url(../public/assests/netflix.jpg);
+            background-size: cover;
+            color: whitesmoke;
+        }
+        .shade-background {
+            height: 770px;
+            background-color: rgba(0, 0,0,0.5);
+        }
+
+        .brand-name{
+            font-size: 25px;
+            color: red;
+            font-weight: bold;
+        }
+        header{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding: 30px;
+        }
+        .login-group {
+            display: flex;
+
+        }
+        select{
+            margin-right: 18px;
+        }
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 400px;
+            
+        }
+        h1{
+            width: 500px;
+            font-size: 42px;
+        }
+    </style>
+</head>
+<body>
+    <div class="shade-background">
+        <header>
+            <div class="brand-name">
+                NETFLIX
+            </div>
+
+            <div class="login-group">
+               <div class="input-group">
+                <span class="bi bi-globe input-group-text"></span>
+                <select class="form-select">
+                    <option>Language</option>
+                    <option>English</option>
+                </select>
+               </div>
+                <button class="btn btn-danger">Signin</button>
+            </div>
+        </header>
+
+        <section>
+            <main>
+                <h1>Unlimited movies,TV shows and more.</h1>
+                <h3>Watch anywhere, cancel anytime.</h3>
+
+                <p class="mt-4">Ready to watch? Enter your mail to create or restart 
+                    your membership.</p>
+                
+                <div class="input-group input-group-lg">
+                    <input type="email" placeholder="Your email address" class="form-control">
+                    <button class="btn btn-danger">
+                        Get Started
+                        <span class="bi bi-chevron-right"></span>
+                    </button>
+                </div>
+            </main>
+
+        </section>
+
+    </div>
+    
+</body>
+</html>
